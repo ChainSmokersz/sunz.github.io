@@ -1,1 +1,1 @@
-export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"zh-CN\",\"title\":\"全栈知识体系\",\"description\":\"Java全栈知识体系\",\"head\":[[\"link\",{\"rel\":\"stylesheet\",\"href\":\"/css/custom.css\"}]],\"locales\":{}}")
+export const siteData = JSON.parse("{\"base\":\"/sunz.github.io/\",\"lang\":\"zh-CN\",\"title\":\"全栈知识体系\",\"description\":\"Java全栈知识体系\",\"head\":[[\"link\",{\"rel\":\"stylesheet\",\"href\":\"/css/custom.css\"}]],\"locales\":{}}")

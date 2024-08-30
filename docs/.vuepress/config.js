@@ -44,6 +44,7 @@ export default defineUserConfig({
             },
         }),
     ],
+    base: '/sunz.github.io/',
     lang: 'zh-CN',
     title: '全栈知识体系',
     description: 'Java全栈知识体系',
