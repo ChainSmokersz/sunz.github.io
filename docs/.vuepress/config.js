@@ -29,9 +29,9 @@ export default defineUserConfig({
     ],
     plugins: [
         docsearchPlugin({
-            appId: '26XV255KMI',
-            apiKey: '5ff646800d5f31ddcab94db0d363e3f7',
-            indexName: 'chainsmokerszio',
+            appId: "26XV255KMI",
+            apiKey: "ada970df5e556bdee15bf7fee37e0f35",
+            indexName: "chainsmokerszio",
             locales: {
                 '/': {
                     placeholder: '搜索文档',
