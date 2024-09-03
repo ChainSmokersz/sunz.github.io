@@ -2,6 +2,7 @@ import {viteBundler} from '@vuepress/bundler-vite'
 import {defaultTheme} from '@vuepress/theme-default'
 import {defineUserConfig} from 'vuepress'
 import {docsearchPlugin} from '@vuepress/plugin-docsearch'
+import { sitemapPlugin } from '@vuepress/plugin-sitemap'
 
 export default defineUserConfig({
     bundler: viteBundler(),
@@ -42,6 +43,10 @@ export default defineUserConfig({
                     },
                 },
             },
+        }),
+        sitemapPlugin({
+            // 选项
+            hostname: 'https://chainsmokersz.github.io/sunz.github.io/'
         }),
     ],
     base: '/sunz.github.io/',
