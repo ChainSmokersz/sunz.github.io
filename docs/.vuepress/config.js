@@ -37,9 +37,6 @@ export default defineUserConfig({
             },
         ],
     }),
-    head: [
-        ['link', { rel: 'stylesheet', href: '/css/custom.css' }]
-    ],
     plugins: [
         docsearchPlugin({
             appId: '26XV255KMI',
@@ -47,6 +44,7 @@ export default defineUserConfig({
             indexName: 'chainsmokerszio',
             locales: {
                 '/': {
+                    lang: 'zh-CN',
                     placeholder: '搜索文档',
                     translations: {
                         button: {
@@ -61,10 +59,13 @@ export default defineUserConfig({
             hostname: 'https://chainsmokersz.github.io/sunz.github.io/'
         }),
     ],
+
     base: '/sunz.github.io/',
     lang: 'zh-CN',
     title: '全栈知识体系',
     description: 'Java全栈知识体系',
+    // 默认为 "Edit this page"
+    editLinkText: '编辑此页',
 })
 
 
