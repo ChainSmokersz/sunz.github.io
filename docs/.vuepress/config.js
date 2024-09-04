@@ -25,17 +25,16 @@ export default defineUserConfig({
                 ],
             },
             {
-                text: 'VuePress',
+                text: '工具',
                 children: [
                     {
-                        text: '插件集成',
+                        text: 'VuePress',
                         children: [
                             {text: 'Algolia DocSearch集成', link: '/vuepress/algolia.md'},
                         ]
                     },
                 ],
             },
-            {text: '工具', link: '/guide/'},
         ],
     }),
     head: [

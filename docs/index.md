@@ -4,7 +4,7 @@ title: 欢迎来到我的博客
 description: 这是一个使用 VuePress 搭建的个人博客
 lang: zh-CN
 heroImage: /images/index-read.gif
-heroText: 全栈知识体系
+heroText: ChainSmoker
 tagline: 分享知识，记录生活
 actions:
   - text: 开始阅读
