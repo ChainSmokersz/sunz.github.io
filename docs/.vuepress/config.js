@@ -9,8 +9,9 @@ export default defineUserConfig({
     theme: defaultTheme({
         // 默认主题配置
         navbar: [
-            {text: '首页', link: '/index.md'},
+            {text: '首页', link: '/algolia.md'},
             {text: '指南', link: '/guide/'},
+            {text: '面试题', link: '/guide/'},
             {
                 text: 'Java',
                 children: [
@@ -23,6 +24,18 @@ export default defineUserConfig({
                     },
                 ],
             },
+            {
+                text: 'VuePress',
+                children: [
+                    {
+                        text: '插件集成',
+                        children: [
+                            {text: 'Algolia DocSearch集成', link: '/vuepress/algolia.md'},
+                        ]
+                    },
+                ],
+            },
+            {text: '工具', link: '/guide/'},
         ],
     }),
     head: [
