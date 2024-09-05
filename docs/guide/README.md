@@ -1,6 +1,7 @@
 ---
 title: Guide
 description: This is the guide page for my VuePress site.
+editLink: false
 ---
 
 # Welcome to the Guide

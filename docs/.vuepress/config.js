@@ -2,7 +2,7 @@ import {viteBundler} from '@vuepress/bundler-vite'
 import {defaultTheme} from '@vuepress/theme-default'
 import {defineUserConfig} from 'vuepress'
 import {docsearchPlugin} from '@vuepress/plugin-docsearch'
-import { sitemapPlugin } from '@vuepress/plugin-sitemap'
+import {sitemapPlugin} from '@vuepress/plugin-sitemap'
 
 export default defineUserConfig({
     bundler: viteBundler(),
@@ -11,7 +11,7 @@ export default defineUserConfig({
         navbar: [
             {text: '首页', link: '/algolia.md'},
             {text: '指南', link: '/guide/'},
-            {text: '面试题', link: '/guide/'},
+            {text: '面试题', link: '/index.md/'},
             {
                 text: 'Java',
                 children: [
@@ -36,15 +36,29 @@ export default defineUserConfig({
                 ],
             },
         ],
+        // 编辑此页的功能
+        editLinks: true,
+        docsRepo: 'https://gitlab.com/ChainSmokersz/sunz.github.io',
+        docsBranch: 'main',
+        docsDir: 'docs',
+        editLinkPattern: ':repo/blob/:branch/:path',
+        // 设置最后更新和编辑此页文本的本地化配置
+        locales: {
+            '/': {
+                lastUpdatedText: '最后更新',  // 修改最后更新的文本
+                editLinkText: '编辑此页',   // 修改编辑此页的文本
+                contributors: '贡献者'
+            },
+        },
     }),
     plugins: [
+        // 集成Algolia搜索
         docsearchPlugin({
             appId: '26XV255KMI',
             apiKey: '0882940c2995adc1c0c7eab06f330a69',
             indexName: 'chainsmokerszio',
             locales: {
                 '/': {
-                    lang: 'zh-CN',
                     placeholder: '搜索文档',
                     translations: {
                         button: {
@@ -64,8 +78,6 @@ export default defineUserConfig({
     lang: 'zh-CN',
     title: '全栈知识体系',
     description: 'Java全栈知识体系',
-    // 默认为 "Edit this page"
-    editLinkText: '编辑此页',
 })
 
 

@@ -14,7 +14,7 @@ if (import.meta.hot) {
     __VUE_HMR_RUNTIME__.updatePageData(data)
   })
 }
-"details\":\"记录学习过程中的点滴\"},{\"title\":\"编程技巧\",\"details\":\"分享编程相关的经验和技巧\"},{\"title\":\"生活记录\",\"details\":\"用文字记录生活的点点滴滴\"}],\"footer\":\"© 2024 ChainSmoker\"},\"headers\":[],\"git\":{\"updatedTime\":1725431536000,\"contributors\":[{\"name\":\"SunzheTR\",\"email\":\"sunzhe1997@gmail.com\",\"commits\":2}]},\"filePathRelative\":\"index.md\"}")
+记\",\"details\":\"记录学习过程中的点滴\"},{\"title\":\"编程技巧\",\"details\":\"分享编程相关的经验和技巧\"},{\"title\":\"生活记录\",\"details\":\"用文字记录生活的点点滴滴\"}],\"footer\":\"© 2024 ChainSmoker\"},\"headers\":[],\"git\":{\"updatedTime\":1725431536000,\"contributors\":[{\"name\":\"SunzheTR\",\"email\":\"sunzhe1997@gmail.com\",\"commits\":2}]},\"filePathRelative\":\"index.md\"}")
 export { comp, data }
 
 if (import.meta.webpackHot) {
