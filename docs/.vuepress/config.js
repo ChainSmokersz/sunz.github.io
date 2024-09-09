@@ -92,11 +92,11 @@ export default defineUserConfig({
         }),
         sitemapPlugin({
             // 选项
-            hostname: 'https://sunz.asia//sitemap.xml/'
+            hostname: 'https://chainsmokersz.github.io/sunz.github.io/'
         }),
     ],
 
-    //base: '/sunz.github.io/',
+    base: '/sunz.github.io/',
     lang: 'zh-CN',
     title: 'ChainSmoker',
     description: 'Java全栈知识体系',
