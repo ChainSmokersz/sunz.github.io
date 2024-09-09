@@ -1,7 +1,11 @@
 ---
 lang: zh-CN
 title: Algolia DocSearch集成
-description: VuePress集成Algolia DocSearch插件 
+description: VuePress集成Algolia DocSearch插件
+contributors: true
+tags:
+  - VuePress
+  - Algolia
 ---
 # Algolia DocSearch 集成
 [[toc]]

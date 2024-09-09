@@ -9,7 +9,7 @@ export default defineUserConfig({
     theme: defaultTheme({
         // 默认主题配置
         navbar: [
-            {text: '首页', link: '/algolia.md'},
+            {text: '首页', link: '/'},
             {text: '指南', link: '/guide/'},
             {text: '面试题', link: '/index.md/'},
             {
@@ -47,7 +47,13 @@ export default defineUserConfig({
             '/': {
                 lastUpdatedText: '最后更新',  // 修改最后更新的文本
                 editLinkText: '编辑此页',   // 修改编辑此页的文本
-                contributors: '贡献者'
+                contributorsText: '贡献者',
+                notFound: [              // 自定义404页面
+                    '页面不存在',
+                    '找不到页面',
+                    '哦不，页面跑丢了！'
+                ],
+                backToHome: '返回首页',
             },
         },
     }),
@@ -59,10 +65,26 @@ export default defineUserConfig({
             indexName: 'chainsmokerszio',
             locales: {
                 '/': {
-                    placeholder: '搜索文档',
+                    placeholder: '搜索文档',  // 自定义搜索框占位符文本
                     translations: {
                         button: {
-                            buttonText: '搜索文档',
+                            buttonText: '搜索',  // 自定义搜索按钮文本
+                            buttonAriaLabel: '搜索按钮',  // 自定义搜索按钮的 ARIA 标签文本
+                        },
+                        modal: {
+                            startScreen: {
+                                recentSearchesTitle: '历史搜索',
+                                noRecentSearchesText: '没有历史搜索',
+                            },
+                            errorScreen: {
+                                titleText: '无法获取结果',
+                                helpText: '请检查您的网络连接',
+                            },
+                            footer: {
+                                selectText: '选择',
+                                navigateText: '导航',
+                                closeText: '关闭',
+                            },
                         },
                     },
                 },
@@ -74,9 +96,9 @@ export default defineUserConfig({
         }),
     ],
 
-    base: '/sunz.github.io/',
+    //base: '/sunz.github.io/',
     lang: 'zh-CN',
-    title: '全栈知识体系',
+    title: 'ChainSmoker',
     description: 'Java全栈知识体系',
 })
 
