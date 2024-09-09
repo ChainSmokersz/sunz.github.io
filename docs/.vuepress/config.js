@@ -96,7 +96,7 @@ export default defineUserConfig({
         }),
     ],
 
-    base: '/sunz.github.io/',
+    base: '/',
     lang: 'zh-CN',
     title: 'ChainSmoker',
     description: 'Java全栈知识体系',
