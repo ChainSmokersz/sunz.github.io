@@ -39,6 +39,6 @@ export default [
         },
     }),
     sitemapPlugin({
-        hostname: 'https://chainsmokersz.github.io/sunz.github.io/',
+        hostname: 'https://sunz.asia/',
     }),
 ]
