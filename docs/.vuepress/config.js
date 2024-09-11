@@ -72,18 +72,31 @@ export default defineUserConfig({
                             buttonAriaLabel: '搜索按钮',  // 自定义搜索按钮的 ARIA 标签文本
                         },
                         modal: {
+                            searchBox: {
+                                resetButtonTitle: '清除查询',  // 清除搜索框内容按钮文本
+                                resetButtonAriaLabel: '清除搜索框',  // 清除按钮的 ARIA 标签文本
+                                cancelButtonText: '取消',  // 取消按钮文本
+                                cancelButtonAriaLabel: '取消搜索',  // 取消按钮的 ARIA 标签文本
+                            },
                             startScreen: {
-                                recentSearchesTitle: '历史搜索',
-                                noRecentSearchesText: '没有历史搜索',
+                                recentSearchesTitle: '历史搜索',  // 历史搜索标题
+                                noRecentSearchesText: '没有历史搜索',  // 没有历史搜索时的文本
+                                saveRecentSearchButtonTitle: '保存到历史记录',  // 保存搜索记录按钮文本
+                                removeRecentSearchButtonTitle: '从历史记录中移除',  // 移除历史记录按钮文本
+                                favoriteSearchesTitle: '收藏的搜索',
+                                removeFavoriteSearchButtonTitle: '从收藏搜索中移除',
                             },
                             errorScreen: {
-                                titleText: '无法获取结果',
-                                helpText: '请检查您的网络连接',
+                                titleText: '无法获取结果',  // 错误屏幕的标题文本
+                                helpText: '请检查您的网络连接',  // 错误屏幕的帮助文本
+                            },
+                            noResultsScreen: {
+                                noResultsText: '没有找到相关结果', // 这里显示中文提示
                             },
                             footer: {
-                                selectText: '选择',
-                                navigateText: '导航',
-                                closeText: '关闭',
+                                selectText: '选择',  // 底部的选择文本
+                                navigateText: '导航',  // 底部的导航文本
+                                closeText: '关闭',  // 底部的关闭文本
                             },
                         },
                     },
@@ -96,7 +109,7 @@ export default defineUserConfig({
         }),
     ],
 
-    base: '/',
+    base: '/sunz.github.io/',
     lang: 'zh-CN',
     title: 'ChainSmoker',
     description: 'Java全栈知识体系',
