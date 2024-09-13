@@ -5,6 +5,7 @@
 首先我们知道</p>
 <h2 id="algolia" tabindex="-1"><a class="header-anchor" href="#algolia"><span>Algolia</span></a></h2>
 <h3 id="_2-1-ces" tabindex="-1"><a class="header-anchor" href="#_2-1-ces"><span>2.1 ces</span></a></h3>
+<div id="giscus-comments"></div>
 </div></template>
 
 

@@ -13,7 +13,7 @@ export default defaultTheme({
                     text: 'Java 面向对象和基础',
                     children: [
                         { text: 'Java 面向对象基础', link: '/java/GC.md' },
-                        { text: 'Java 基础知识体系', link: '/java/basics/' },
+                        { text: 'Java 基础知识体系', link: '/java/String.md' },
                     ],
                 },
             ],
@@ -40,7 +40,7 @@ export default defaultTheme({
     locales: {
         '/': {
             lastUpdatedText: '最后更新',
-            editLinkText: '编辑此页',
+            editLinkText: '在GitHub上编辑此页',
             contributorsText: '贡献者',
             notFound: ['页面不存在', '找不到页面', '哦不，页面跑丢了！'],
             backToHome: '返回首页',

@@ -1,5 +1,8 @@
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import { sitemapPlugin } from '@vuepress/plugin-sitemap'
+import { readingTimePlugin } from '@vuepress/plugin-reading-time'
+import { commentPlugin } from '@vuepress/plugin-comment'
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 
 export default [
     // 集成Algolia搜索
@@ -40,5 +43,20 @@ export default [
     }),
     sitemapPlugin({
         hostname: 'https://sunz.asia/',
+    }),
+    readingTimePlugin({
+        wordPerMinute: 300
+    }),
+    commentPlugin({
+        provider: 'Giscus',
+        repo: 'ChainSmokersz/sunz.github.io',
+        repoId: 'R_kgDOMqZeNg',
+        category: 'Announcements',
+        categoryId: 'DIC_kwDOMqZeNs4CiX-R',
+    }),
+    googleAnalyticsPlugin({
+        // 配置项
+        id: 'G-9WT1CDPF70',
+        debug: true,
     }),
 ]

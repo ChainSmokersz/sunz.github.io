@@ -8,6 +8,7 @@ import * as clientConfig6 from '/Applications/javaProject/vuepress-starter/docs/
 import * as clientConfig7 from '/Applications/javaProject/vuepress-starter/node_modules/@vuepress/plugin-theme-data/lib/client/config.js'
 import * as clientConfig8 from '/Applications/javaProject/vuepress-starter/node_modules/@vuepress/theme-default/lib/client/config.js'
 import * as clientConfig9 from '/Applications/javaProject/vuepress-starter/node_modules/@vuepress/plugin-docsearch/lib/client/config.js'
+import * as clientConfig10 from '/Applications/javaProject/vuepress-starter/node_modules/@vuepress/plugin-comment/lib/client/config.js'
 
 export const clientConfigs = [
   clientConfig0,
@@ -20,4 +21,5 @@ export const clientConfigs = [
   clientConfig7,
   clientConfig8,
   clientConfig9,
+  clientConfig10,
 ].map((m) => m.default).filter(Boolean)

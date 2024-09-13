@@ -13,7 +13,10 @@
   "license": "ISC",
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.15",
+    "@vuepress/plugin-comment": "^2.0.0-rc.42",
     "@vuepress/plugin-docsearch": "^2.0.0-rc.42",
+    "@vuepress/plugin-google-analytics": "^2.0.0-rc.42",
+    "@vuepress/plugin-reading-time": "^2.0.0-rc.42",
     "@vuepress/plugin-sitemap": "^2.0.0-rc.42",
     "@vuepress/plugin-toc": "^2.0.0-rc.42",
     "@vuepress/theme-default": "2.0.0-rc.42",
@@ -22,6 +25,7 @@
     "vuepress-plugin-auto-sidebar": "^2.3.2"
   },
   "dependencies": {
+    "vuepress-plugin-giscus": "^2.0.0-alpha.2",
     "vuepress-plugin-table-of-contents": "^1.1.7"
   }
 }

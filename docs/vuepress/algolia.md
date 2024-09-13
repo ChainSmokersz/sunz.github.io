@@ -17,4 +17,6 @@ VuePress内置的搜索有很多优点，但是我们为啥还要选择`Algolia`
 ## Algolia
 ### 2.1 ces
 
+<div id="giscus-comments"></div>
+
 
