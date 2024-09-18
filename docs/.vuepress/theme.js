@@ -19,16 +19,18 @@ export default defaultTheme({
             ],
         },
         {
-            text: '工具',
+            text: 'VuePress',
             children: [
                 {
-                    text: 'VuePress',
+                    text: 'VuePress生态系统',
                     children: [
                         { text: 'Algolia DocSearch集成', link: '/vuepress/algolia.md' },
+                        { text: 'Algolia Giscus集成', link: '/vuepress/giscus .md' },
                     ],
                 },
             ],
         },
+        { text: '资源库', link: '/resourceLibrary/search.md' },
     ],
     // 编辑此页的功能
     editLinks: true,
@@ -44,6 +46,8 @@ export default defaultTheme({
             contributorsText: '贡献者',
             notFound: ['页面不存在', '找不到页面', '哦不，页面跑丢了！'],
             backToHome: '返回首页',
+            prev: '上一页', // 自定义上一页的显示文本
+            next: '下一页', // 自定义下一页的显示文本
         },
     },
 })

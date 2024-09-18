@@ -1,13 +1,13 @@
 ---
 lang: zh-CN
-title: Algolia DocSearch集成
-description: VuePress集成Algolia DocSearch插件
+title: Giscus集成
+description: VuePress集成Giscus评论插件
 contributors: true
 tags:
   - VuePress
   - Algolia
 ---
-# Algolia DocSearch 集成
+# Algolia -- Giscus评论集成
 [[toc]]
 
 ## 背景

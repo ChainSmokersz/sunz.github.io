@@ -2,10 +2,9 @@ import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import { sitemapPlugin } from '@vuepress/plugin-sitemap'
 import { readingTimePlugin } from '@vuepress/plugin-reading-time'
 import { commentPlugin } from '@vuepress/plugin-comment'
-import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
+import { markdownContainerPlugin } from '@vuepress/plugin-markdown-container'
 
 export default [
-    // 集成Algolia搜索
     docsearchPlugin({
         appId: '26XV255KMI',
         apiKey: '0882940c2995adc1c0c7eab06f330a69',
@@ -47,6 +46,8 @@ export default [
     readingTimePlugin({
         wordPerMinute: 300
     }),
+
+    // 评估插件
     commentPlugin({
         provider: 'Giscus',
         repo: 'ChainSmokersz/sunz.github.io',
@@ -54,9 +55,10 @@ export default [
         category: 'Announcements',
         categoryId: 'DIC_kwDOMqZeNs4CiX-R',
     }),
-    googleAnalyticsPlugin({
-        // 配置项
-        id: 'G-9WT1CDPF70',
-        debug: true,
+
+
+    markdownContainerPlugin({
+        type: 'card',
     }),
+
 ]

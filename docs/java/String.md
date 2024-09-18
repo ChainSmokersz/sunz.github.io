@@ -6,6 +6,10 @@ contributors: true
 tags:
   - VuePress
   - Algolia
+
+prev:
+  text: GC
+  link: /java/GC.md
 ---
 # String
 [[toc]]

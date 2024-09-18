@@ -4,6 +4,13 @@ import theme from './theme'
 import plugins from './plugins'
 
 export default defineUserConfig({
+    head: [
+        // 添加浏览器 favicon 图标
+        [
+            'link',
+            { rel: 'icon', href: '/images/favicon.png' }
+        ],
+    ],
     bundler: viteBundler(),
     theme,
     plugins,

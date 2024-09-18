@@ -7,8 +7,10 @@ export const routes = Object.fromEntries([
   ["/guide/", { loader: () => import(/* webpackChunkName: "guide_index.html" */"/Applications/javaProject/vuepress-starter/docs/.vuepress/.temp/pages/guide/index.html.js"), meta: {"title":"Guide"} }],
   ["/guide/User.html", { loader: () => import(/* webpackChunkName: "guide_User.html" */"/Applications/javaProject/vuepress-starter/docs/.vuepress/.temp/pages/guide/User.html.js"), meta: {"title":"Guide"} }],
   ["/vuepress/algolia.html", { loader: () => import(/* webpackChunkName: "vuepress_algolia.html" */"/Applications/javaProject/vuepress-starter/docs/.vuepress/.temp/pages/vuepress/algolia.html.js"), meta: {"title":"Algolia DocSearch集成"} }],
+  ["/vuepress/giscus%20.html", { loader: () => import(/* webpackChunkName: "vuepress_giscus .html" */"/Applications/javaProject/vuepress-starter/docs/.vuepress/.temp/pages/vuepress/giscus .html.js"), meta: {"title":"Giscus集成"} }],
   ["/java/GC.html", { loader: () => import(/* webpackChunkName: "java_GC.html" */"/Applications/javaProject/vuepress-starter/docs/.vuepress/.temp/pages/java/GC.html.js"), meta: {"title":"经典垃圾收集器"} }],
   ["/java/String.html", { loader: () => import(/* webpackChunkName: "java_String.html" */"/Applications/javaProject/vuepress-starter/docs/.vuepress/.temp/pages/java/String.html.js"), meta: {"title":"String"} }],
+  ["/resourceLibrary/search.html", { loader: () => import(/* webpackChunkName: "resourceLibrary_search.html" */"/Applications/javaProject/vuepress-starter/docs/.vuepress/.temp/pages/resourceLibrary/search.html.js"), meta: {"title":"百宝箱"} }],
 ]);
 
 if (import.meta.webpackHot) {
