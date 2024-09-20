@@ -6,6 +6,9 @@ contributors: true
 tags:
   - VuePress
   - Algolia
+next:
+  text: Giscus评论
+  link: /vuepress/giscus.md
 ---
 # Algolia DocSearch 集成
 [[toc]]

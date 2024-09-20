@@ -23,7 +23,8 @@
     "@vuepress/theme-default": "2.0.0-rc.42",
     "vue": "^3.4.38",
     "vuepress": "2.0.0-rc.15",
-    "vuepress-plugin-auto-sidebar": "^2.3.2"
+    "vuepress-plugin-auto-sidebar": "^2.3.2",
+    "vuepress-plugin-google-adsense": "^0.2.1"
   },
   "dependencies": {
     "vuepress-plugin-giscus": "^2.0.0-alpha.2",

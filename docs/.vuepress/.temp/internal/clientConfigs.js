@@ -1,14 +1,15 @@
-import * as clientConfig0 from '/Applications/javaProject/vuepress-starter/node_modules/@vuepress/plugin-active-header-links/lib/client/config.js'
-import * as clientConfig1 from '/Applications/javaProject/vuepress-starter/node_modules/@vuepress/plugin-back-to-top/lib/client/config.js'
-import * as clientConfig2 from '/Applications/javaProject/vuepress-starter/node_modules/@vuepress/plugin-copy-code/lib/client/config.js'
-import * as clientConfig3 from '/Applications/javaProject/vuepress-starter/node_modules/@vuepress/plugin-markdown-hint/lib/client/config.js'
-import * as clientConfig4 from '/Applications/javaProject/vuepress-starter/node_modules/@vuepress/plugin-medium-zoom/lib/client/config.js'
-import * as clientConfig5 from '/Applications/javaProject/vuepress-starter/node_modules/@vuepress/plugin-nprogress/lib/client/config.js'
-import * as clientConfig6 from '/Applications/javaProject/vuepress-starter/docs/.vuepress/.temp/prismjs/config.js'
-import * as clientConfig7 from '/Applications/javaProject/vuepress-starter/node_modules/@vuepress/plugin-theme-data/lib/client/config.js'
-import * as clientConfig8 from '/Applications/javaProject/vuepress-starter/node_modules/@vuepress/theme-default/lib/client/config.js'
-import * as clientConfig9 from '/Applications/javaProject/vuepress-starter/node_modules/@vuepress/plugin-docsearch/lib/client/config.js'
-import * as clientConfig10 from '/Applications/javaProject/vuepress-starter/node_modules/@vuepress/plugin-comment/lib/client/config.js'
+import * as clientConfig0 from '/Applications/javaProject/sunz/node_modules/@vuepress/plugin-active-header-links/lib/client/config.js'
+import * as clientConfig1 from '/Applications/javaProject/sunz/node_modules/@vuepress/plugin-back-to-top/lib/client/config.js'
+import * as clientConfig2 from '/Applications/javaProject/sunz/node_modules/@vuepress/plugin-copy-code/lib/client/config.js'
+import * as clientConfig3 from '/Applications/javaProject/sunz/node_modules/@vuepress/plugin-markdown-hint/lib/client/config.js'
+import * as clientConfig4 from '/Applications/javaProject/sunz/node_modules/@vuepress/plugin-medium-zoom/lib/client/config.js'
+import * as clientConfig5 from '/Applications/javaProject/sunz/node_modules/@vuepress/plugin-nprogress/lib/client/config.js'
+import * as clientConfig6 from '/Applications/javaProject/sunz/docs/.vuepress/.temp/prismjs/config.js'
+import * as clientConfig7 from '/Applications/javaProject/sunz/node_modules/@vuepress/plugin-theme-data/lib/client/config.js'
+import * as clientConfig8 from '/Applications/javaProject/sunz/node_modules/@vuepress/theme-default/lib/client/config.js'
+import * as clientConfig9 from '/Applications/javaProject/sunz/node_modules/@vuepress/plugin-docsearch/lib/client/config.js'
+import * as clientConfig10 from '/Applications/javaProject/sunz/node_modules/@vuepress/plugin-comment/lib/client/config.js'
+import * as clientConfig11 from '/Applications/javaProject/sunz/node_modules/@vuepress/plugin-google-analytics/lib/client/config.js'
 
 export const clientConfigs = [
   clientConfig0,
@@ -22,4 +23,5 @@ export const clientConfigs = [
   clientConfig8,
   clientConfig9,
   clientConfig10,
+  clientConfig11,
 ].map((m) => m.default).filter(Boolean)

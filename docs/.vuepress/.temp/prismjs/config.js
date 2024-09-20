@@ -1,3 +1,3 @@
-import "/Applications/javaProject/vuepress-starter/node_modules/@vuepress/highlighter-helper/lib/client/styles/base.css"
-import "/Applications/javaProject/vuepress-starter/node_modules/@vuepress/plugin-prismjs/lib/client/styles/nord.css"
-import "/Applications/javaProject/vuepress-starter/node_modules/@vuepress/highlighter-helper/lib/client/styles/line-numbers.css"
+import "/Applications/javaProject/sunz/node_modules/@vuepress/highlighter-helper/lib/client/styles/base.css"
+import "/Applications/javaProject/sunz/node_modules/@vuepress/plugin-prismjs/lib/client/styles/nord.css"
+import "/Applications/javaProject/sunz/node_modules/@vuepress/highlighter-helper/lib/client/styles/line-numbers.css"

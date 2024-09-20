@@ -19,6 +19,17 @@ export default defaultTheme({
             ],
         },
         {
+            text: 'Spring',
+            children: [
+                {
+                    text: 'Spring5',
+                    children: [
+                        { text: 'Spring基础', link: '/Spring/Spring.md' },
+                    ],
+                },
+            ],
+        },
+        {
             text: 'VuePress',
             children: [
                 {
