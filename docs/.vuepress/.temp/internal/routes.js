@@ -6,12 +6,12 @@ export const routes = Object.fromEntries([
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"/Applications/javaProject/sunz/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"欢迎来到我的博客"} }],
   ["/guide/", { loader: () => import(/* webpackChunkName: "guide_index.html" */"/Applications/javaProject/sunz/docs/.vuepress/.temp/pages/guide/index.html.js"), meta: {"title":"Guide"} }],
   ["/guide/User.html", { loader: () => import(/* webpackChunkName: "guide_User.html" */"/Applications/javaProject/sunz/docs/.vuepress/.temp/pages/guide/User.html.js"), meta: {"title":"Guide"} }],
-  ["/java/GC.html", { loader: () => import(/* webpackChunkName: "java_GC.html" */"/Applications/javaProject/sunz/docs/.vuepress/.temp/pages/java/GC.html.js"), meta: {"title":"经典垃圾收集器"} }],
-  ["/java/String.html", { loader: () => import(/* webpackChunkName: "java_String.html" */"/Applications/javaProject/sunz/docs/.vuepress/.temp/pages/java/String.html.js"), meta: {"title":"String"} }],
+  ["/Spring/Spring.html", { loader: () => import(/* webpackChunkName: "Spring_Spring.html" */"/Applications/javaProject/sunz/docs/.vuepress/.temp/pages/Spring/Spring.html.js"), meta: {"title":""} }],
   ["/vuepress/algolia.html", { loader: () => import(/* webpackChunkName: "vuepress_algolia.html" */"/Applications/javaProject/sunz/docs/.vuepress/.temp/pages/vuepress/algolia.html.js"), meta: {"title":"Algolia DocSearch集成"} }],
   ["/vuepress/giscus%20.html", { loader: () => import(/* webpackChunkName: "vuepress_giscus .html" */"/Applications/javaProject/sunz/docs/.vuepress/.temp/pages/vuepress/giscus .html.js"), meta: {"title":"Giscus集成"} }],
   ["/resourceLibrary/search.html", { loader: () => import(/* webpackChunkName: "resourceLibrary_search.html" */"/Applications/javaProject/sunz/docs/.vuepress/.temp/pages/resourceLibrary/search.html.js"), meta: {"title":"百宝箱"} }],
-  ["/Spring/Spring.html", { loader: () => import(/* webpackChunkName: "Spring_Spring.html" */"/Applications/javaProject/sunz/docs/.vuepress/.temp/pages/Spring/Spring.html.js"), meta: {"title":""} }],
+  ["/java/GC.html", { loader: () => import(/* webpackChunkName: "java_GC.html" */"/Applications/javaProject/sunz/docs/.vuepress/.temp/pages/java/GC.html.js"), meta: {"title":"经典垃圾收集器"} }],
+  ["/java/String.html", { loader: () => import(/* webpackChunkName: "java_String.html" */"/Applications/javaProject/sunz/docs/.vuepress/.temp/pages/java/String.html.js"), meta: {"title":"String"} }],
 ]);
 
 if (import.meta.webpackHot) {
