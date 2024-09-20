@@ -4,6 +4,7 @@ import { readingTimePlugin } from '@vuepress/plugin-reading-time'
 import { commentPlugin } from '@vuepress/plugin-comment'
 import { markdownContainerPlugin } from '@vuepress/plugin-markdown-container'
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
+import adsensePlugin from 'vuepress-plugin-google-adsense'
 
 export default [
     docsearchPlugin({
@@ -45,10 +46,8 @@ export default [
         hostname: 'https://sunz.asia/',
     }),
     readingTimePlugin({
-        wordPerMinute: 300
+        wordPerMinute: 300,
     }),
-
-    // 评估插件
     commentPlugin({
         provider: 'Giscus',
         repo: 'ChainSmokersz/sunz.github.io',
@@ -56,21 +55,16 @@ export default [
         category: 'Announcements',
         categoryId: 'DIC_kwDOMqZeNs4CiX-R',
     }),
-
-
     markdownContainerPlugin({
         type: 'card',
     }),
-
     googleAnalyticsPlugin({
-        // 配置项
         id: 'G-9WT1CDPF70',
         debug: true,
     }),
 
-    'vuepress-plugin-google-adsense',
-    {
+    // Google Adsense 插件
+    adsensePlugin({
         adClient: 'ca-pub-5945083129646506', // 替换为你的 AdSense ID
-    },
-
+    }),
 ]
