@@ -63,7 +63,7 @@ export default [
         debug: true,
     }),
 
-    // Google Adsense 插件
+    // Google Adsense 谷歌广告插件
     adsensePlugin({
         adClient: 'ca-pub-5945083129646506', // 替换为你的 AdSense ID
     }),

@@ -5,6 +5,12 @@ import plugins from './plugins'
 
 export default defineUserConfig({
     head: [
+        'script',
+        {
+            async: true,
+            src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5945083129646506',
+            crossorigin: 'anonymous',
+        },
         // 添加浏览器 favicon 图标
         [
             'link',
